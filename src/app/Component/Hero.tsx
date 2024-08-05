@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 "use client";
 import Typewriter from "typewriter-effect";
 import React from "react";
