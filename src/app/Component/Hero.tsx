@@ -22,8 +22,8 @@ const Hero = () => {
             </h1>
             <div className="w-[100px] h-[2px] bg-blue-700"></div>
             <p className="mb-8 leading-relaxed">
-              Hello I'm Aspiring Software Engineer, I'm Passionate About
-              Artificial Inteligence And new Technologies !<br />
+              Hello I&apos;m Aspiring Software Engineer, I&apos;m Passionate About
+              Artificial Inteligence And new Technologies<br />
               Hire Me for Modern Website Development.
             </p>
             <div className="flex justify-center">
