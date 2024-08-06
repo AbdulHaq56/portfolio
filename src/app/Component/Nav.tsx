@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-blue-900 mb-4 md:mb-0">
             <Image
-              src={require("../../../public/Assects/Pictures/Logo.jpeg")}
+              src="/Assects/Pictures/Logo.jpeg"  // Use absolute path for public directory
               alt="Logo"
               height={100}
               width={100}
@@ -43,47 +43,47 @@ const Navbar = () => {
             </svg>
           </button>
           <nav
-            className={`md:ml-auto md:mr-auto flex flex-col md:flex-row md:space-x-5 items-center text-base ${
+            className={`${
               isOpen ? "block" : "hidden"
-            } lg:flex lg:space-x-5`}
+            } md:ml-auto md:mr-auto flex flex-col md:flex-row md:space-x-5 items-center text-base lg:flex lg:space-x-5 lg:flex-row`}
           >
             <Link
-              href={"/"}
+              href="/"
               className="mr-0 group text-blue-600 transition duration-300"
             >
               Home
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blue-800" />
             </Link>
             <Link
-              href={"#about"}
-              className="mr-5 group text-blue-600 transition duration-300"
+              href="#about"
+              className="my-2 md:my-0 group text-blue-600 transition duration-300"
             >
               About
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blue-800" />
             </Link>
             <Link
-              href={"#skill"}
-              className="mr-5 group text-blue-600 transition duration-300"
+              href="#skill"
+              className="my-2 md:my-0 group text-blue-600 transition duration-300"
             >
               Skills
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blue-800" />
             </Link>
             <Link
-              href={"#project"}
-              className="mr-5 group text-blue-600 transition duration-300"
+              href="#project"
+              className="my-2 md:my-0 group text-blue-600 transition duration-300"
             >
               Projects
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blue-800" />
             </Link>
             <Link
-              href={"#Contact"}
-              className="mr-5 group text-blue-600 transition duration-300"
+              href="#Contact"
+              className="my-2 md:my-0 group text-blue-600 transition duration-300"
             >
               Contact
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blue-800" />
             </Link>
           </nav>
-          <a href="Assects/myCv.pdf.pdf">
+          <a href="/Assects/MyCV/myCv.pdf">
             <button
               type="button"
               className="py-2.5 px-6 me-2 mb-1 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-800"
@@ -98,3 +98,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
