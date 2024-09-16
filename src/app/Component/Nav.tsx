@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-blue-900 mb-4 md:mb-0">
             <Image
-              src="/Assects/Pictures/Logo.jpeg"  // Use absolute path for public directory
+              src="/Assects/Pictures/Logo.jpeg" // Use absolute path for public directory
               alt="Logo"
               height={100}
               width={100}
@@ -49,47 +49,47 @@ const Navbar = () => {
           >
             <Link
               href="/"
-              className="mr-0 group text-blue-600 transition duration-300"
+              className="active:text-black mr-0 group text-blue-600 transition duration-300"
             >
               Home
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blue-800" />
             </Link>
             <Link
               href="#about"
-              className="my-2 md:my-0 group text-blue-600 transition duration-300"
+              className="active:text-black my-2 md:my-0 group text-blue-600 transition duration-300"
             >
               About
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blue-800" />
             </Link>
             <Link
               href="#skill"
-              className="my-2 md:my-0 group text-blue-600 transition duration-300"
+              className="active:text-black my-2 md:my-0 group text-blue-600 transition duration-300"
             >
               Skills
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blue-800" />
             </Link>
             <Link
               href="#project"
-              className="my-2 md:my-0 group text-blue-600 transition duration-300"
+              className="active:text-black my-2 md:my-0 group text-blue-600 transition duration-300"
             >
               Projects
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blue-800" />
             </Link>
             <Link
               href="#Contact"
-              className="my-2 md:my-0 group text-blue-600 transition duration-300"
+              className="active:text-black my-2 md:my-0 group text-blue-600 transition duration-300"
             >
               Contact
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-blue-800" />
             </Link>
           </nav>
           <Link
-      href="/Assects/MyCV/myCv.pdf.pdf"
-      className="py-2.5 px-6 me-2 mb-1 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-800"
-      download
-    >
-      Download CV
-    </Link>
+            href="/Assects/MyCV/myCv.pdf.pdf"
+            className="py-2.5 px-6 me-2 mb-1 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-800"
+            download
+          >
+            Download CV
+          </Link>
         </div>
       </header>
     </div>
@@ -97,4 +97,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

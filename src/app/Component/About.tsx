@@ -7,13 +7,13 @@ const About = () => {
         <section className="text-gray-600 body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+      <h1 className= "title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
         About Me
       </h1>
-      <p className="mb-5 leading-relaxed">
-      I&apos;m an aspiring web developer with a passion for entrepreneurship and a solid intermediate education. I specialize in creating dynamic and user centric web solutions using a range of technologies, including HTML, CSS, JavaScript, and frameworks like Tailwind & Next.js.
+      <p className="mb-5 leading-relaxed text-gray-900">
+      I&apos;m an aspiring web developer with a passion for entrepreneurship and a solid intermediate education. I specialize in creating dynamic and user centric web solutions using a range of technologies, including HTML, CSS, JavaScript, TypeScript and frameworks like Tailwind CSS & Next.JS.
       </p>
-      <p className="mb-5 leading-relaxed">
+      <p className="mb-5 leading-relaxed text-gray-600">
       My entrepreneurial spirit drives me to combine technical skills with innovative thinking to deliver impactful digital experiences. I&apos;m excited to connect and explore new opportunities to make a meaningful impact in the tech world.
       </p>
       <div className="flex justify-center">
