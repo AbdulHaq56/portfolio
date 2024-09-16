@@ -21,21 +21,21 @@ const Project = () => {
                   src={require("../../../public/Assects/project/clonefb.webp")}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                  <h4 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
                     Facebook Clone
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  </h4>
+                  <h2 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Login & Signup Page
-                  </h1>
+                  </h2>
                   <p className="leading-relaxed line-clamp-2">
                     This is Facebook Login and signup page. This is my first
-                    project made with only Html and css only.
+                    project made with only Html and css for only PC.
                   </p>
                   <Link
                   target="_blank"
                   href={"https://facebook-sign-in-up-page.vercel.app/"}>
                     <p className="leading-relaxed text-blue-500 hover:underline">
-                      View Project..
+                      View Project....
                     </p>
                   </Link>
                 </div>
@@ -49,21 +49,18 @@ const Project = () => {
                   src={require("../../../public/Assects/project/comingsoon.jpg")}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                  <h4 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                    Coming Soon
+                  </h4>
+                  <h2 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Coming Soon
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    Coming Soon
-                  </h1>
                   <p className="leading-relaxed line-clamp-2">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Ipsam quibusdam facilis quas sapiente ipsum veniam commodi
-                    corrupti libero minima nesciunt dolore, ex praesentium
-                    veritatis, itaque aliquid nisi repellat. Dolorem, nihil!
+                  Stay tuned for my Upcoming projects. Built with Next jS, React and other new Technologies.
                   </p>
                   <Link href={"#"}>
                     <p className="leading-relaxed text-blue-500 hover:underline">
-                      View Project..
+                      View Project....
                     </p>
                   </Link>
                 </div>
@@ -77,17 +74,15 @@ const Project = () => {
                   src={require("../../../public/Assects/project/comingsoon.jpg")}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                  <h4 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                    New Project
+                  </h4>
+                  <h2 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Coming Soon
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    Coming Soon
-                  </h1>
                   <p className="leading-relaxed line-clamp-2">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Ipsam quibusdam facilis quas sapiente ipsum veniam commodi
-                    corrupti libero minima nesciunt dolore, ex praesentium
-                    veritatis, itaque aliquid nisi repellat. Dolorem, nihil!
+                  Stay tuned for my Upcoming projects. Built with Next jS, React and other new Technologies.
+
                   </p>
                   <Link href={"#"}>
                     <p className="leading-relaxed text-blue-500 hover:underline">

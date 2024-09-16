@@ -22,6 +22,7 @@ export const metadata = {
     telephone: false,
   },
   title: 'Abdul-Haq Portfolio',
+
 description: 'Explore the portfolio of Abdul-Haq, a skilled web developer with expertise in Next.js, React, JavaScript, and TypeScript. Discover a collection of innovative and high-performance web applications, demonstrating a commitment to quality and cutting-edge technologies. From dynamic websites to robust applications, see how Abdul-Haq brings creativity and technical proficiency to every project.'
 
 }

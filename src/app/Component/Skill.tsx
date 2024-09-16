@@ -10,12 +10,12 @@ const Skill = () => {
       <section className="body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
-            <h2 className="text-xs text-blue-500 tracking-widest font-medium title-font mb-1">
+            <h1 className="text-xs text-blue-500 tracking-widest font-medium title-font mb-1">
               Skill
-            </h2>
-            <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
-              My Skills
             </h1>
+            <h2 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
+              My Skills
+            </h2>
           </div>
           <div className="flex flex-wrap -m-4">
             {/* skills html */}
@@ -25,9 +25,9 @@ const Skill = () => {
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
                     <RiHtml5Line className="text-xl font-bold" />
                   </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">
+                  <h4 className="text-gray-900 text-lg title-font font-medium">
                     HTML
-                  </h2>
+                  </h4>
                 </div>
                 <div className="relative h-1 w-full bg-gray-200 rounded-xl">
                   <div className="absolute bg-blue-500 rounded-xl h-1 w-[100%]"></div>
@@ -42,9 +42,9 @@ const Skill = () => {
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
                     <FaCss3 className="text-xl font-bold" />
                   </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">
+                  <h4 className="text-gray-900 text-lg title-font font-medium">
                     CSS
-                  </h2>
+                  </h4>
                 </div>
                 <div className="relative h-1 w-full bg-gray-200 rounded-xl">
                   <div className="absolute bg-blue-500 rounded-xl h-1 w-[70%]"></div>
@@ -59,9 +59,9 @@ const Skill = () => {
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
                     <SiTailwindcss className="text-xl font-bold" />
                   </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">
+                  <h4 className="text-gray-900 text-lg title-font font-medium">
                     TailWind CSS
-                  </h2>
+                  </h4>
                 </div>
                 <div className="relative h-1 w-full bg-gray-200 rounded-xl">
                   <div className="absolute bg-blue-500 rounded-xl h-1 w-[80%]"></div>
@@ -76,9 +76,9 @@ const Skill = () => {
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
                     <AiOutlineJavaScript className="text-xl font-bold" />
                   </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">
+                  <h4 className="text-gray-900 text-lg title-font font-medium">
                     JavaScript
-                  </h2>
+                  </h4>
                 </div>
                 <div className="relative h-1 w-full bg-gray-200 rounded-xl">
                   <div className="absolute bg-blue-500 rounded-xl h-1 w-[75%]"></div>
@@ -93,9 +93,9 @@ const Skill = () => {
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
                     <SiTypescript className="text-xl font-bold" />
                   </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">
+                  <h4 className="text-gray-900 text-lg title-font font-medium">
                     TypeScript
-                  </h2>
+                  </h4>
                 </div>
                 <div className="relative h-1 w-full bg-gray-200 rounded-xl">
                   <div className="absolute bg-blue-500 rounded-xl h-1 w-[80%]"></div>
@@ -110,9 +110,9 @@ const Skill = () => {
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
                     <SiNextdotjs className="text-xl font-bold" />
                   </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">
+                  <h4 className="text-gray-900 text-lg title-font font-medium">
                     Next JS
-                  </h2>
+                  </h4>
                 </div>
                 <div className="relative h-1 w-full bg-gray-200 rounded-xl">
                   <div className="absolute bg-blue-500 rounded-xl h-1 w-[40%]"></div>

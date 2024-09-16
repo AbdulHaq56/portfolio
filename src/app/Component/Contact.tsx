@@ -8,15 +8,15 @@ const Contact = () => {
     <div className="bg-gray-200" id="Contact">
       <div className="grid sm:grid-cols-2 items-start gap-16 p-4 mx-auto max-w-4xl bg-white font-[sans-serif]">
         <div>
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+          <h3 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
             Contact
-          </h1>
+          </h3>
           <p className="text-sm text-gray-500 mt-4">
             Have some big idea or brand to develop and need help? Then reach out
             we&apos;d love to hear about your project and provide help.
           </p>
           <div className="mt-12">
-            <h2 className="text-gray-800 text-base font-bold">Email</h2>
+            <h3 className="text-gray-800 text-base font-bold">Email</h3>
             <ul className="mt-4">
               <li className="flex items-center">
                 <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
